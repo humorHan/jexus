@@ -1,0 +1,86 @@
+div.mb35 {
+  margin-bottom: 35px;
+}
+div.hello {
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+.assembly-content {
+  margin: 0 auto;
+  width: 915px;
+}
+.afternoon {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  background: url("../../bundle/img/icon.png") -612px -130px no-repeat;
+}
+.paper {
+  margin-top: 35px;
+}
+.paper .item {
+  height: 28px;
+  margin-bottom: 33px;
+}
+.paper .item .paper-name {
+  width: 153px;
+}
+.paper .item li {
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 0 15px;
+  margin-right: 12px;
+}
+.paper .item li.active {
+  color: #ffffff;
+  background-color: #cb441e;
+}
+.paper .point {
+  height: auto;
+}
+.paper .point ul {
+  width: 848px;
+}
+.paper .point ul li {
+  margin-bottom: 20px;
+}
+.paper .grade {
+  height: auto;
+  margin-bottom: 13px;
+}
+.paper .grade ul {
+  width: 848px;
+}
+.paper .grade ul li {
+  margin-bottom: 20px;
+}
+.handle {
+  margin-bottom: 30px;
+}
+.handle .next {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+  background-color: #cb441e;
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 2px;
+}
+.handle .clear {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #bababa;
+  border-radius: 2px;
+}
+
+/*# sourceMappingURL=maps/assembly.css.map */

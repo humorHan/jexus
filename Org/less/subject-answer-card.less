@@ -1,0 +1,63 @@
+@import (reference) 'common/color.less';
+
+.mt65{margin-top: 65px;}
+.card-bg{
+  height: 19px;
+  width: 19px;
+  background: url('../../bundle/img/icon.png') -527px -166px no-repeat;
+}
+.subject-wrap{
+  width: 724px;
+  border-right: 1px solid @line;
+  .options{
+    li{
+      display: inline-block;
+      margin-right: 25px;
+      width: 98px;
+      height: 36px;
+      line-height: 36px;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid @red;
+      text-align: center;
+      &.active{
+        background-color: @choose;
+      }
+      &.submit-option{
+        color: @white;
+        background-color: @red;
+      }
+    }
+  }
+}
+.answer-card{
+  margin-left: 725px;
+  padding-left: 45px;
+  li{
+    display: inline-block;
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    line-height: 35px;
+    text-align: center;
+    color: @red;
+    background-color: @white;
+    border: 1px solid @head-line;
+    border-radius: 2px;
+    margin-right: 30px;
+    margin-top: 45px;
+    &.active{
+      color: @white;
+      background-color: @red;
+      border: 1px solid @red;
+    }
+  }
+  .time{
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+.handle-btn{
+  width: 100px;
+  margin-bottom: 10px;
+}

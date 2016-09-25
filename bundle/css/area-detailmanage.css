@@ -1,0 +1,130 @@
+.area-box {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.orglogo {
+  width: 20px;
+  height: 25px;
+  display: inline-block;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  background-position: -380px -157px;
+}
+.content {
+  width: 100%;
+}
+.contentnews {
+  width: 906px;
+  margin-top: 40px;
+  height: 100%;
+  border: 1px dotted #d5d9d1;
+  position: relative;
+  padding-right: 65px;
+  padding-bottom: 30px;
+}
+.title {
+  width: 841px;
+  height: 50px;
+  margin: 45px auto;
+  color: white;
+  margin-bottom: 42px;
+  background: url('../../bundle/img/butterfly.png') no-repeat center center;
+  line-height: 40px;
+}
+.rimg {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  z-index: 3;
+}
+.contentbox {
+  width: 738px;
+  color: #333333;
+}
+.headbg {
+  height: 40px;
+  line-height: 40px;
+  background: #eae8e8;
+}
+.schlogo {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  background-position: -304px -166px;
+  vertical-align: middle;
+}
+.teacherbox span {
+  display: block;
+  float: left;
+  width: 147.5px;
+}
+.pop-up,
+.add-sch {
+  z-index: 101;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+  -webkit-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+}
+.popup {
+  width: 360px;
+  height: 194px;
+}
+.close {
+  position: absolute;
+  background: url('../../bundle/img/icon.png') -583px -93px no-repeat;
+  height: 10px;
+  width: 10px;
+  top: 20px;
+  right: 20px;
+}
+.select {
+  width: 130px;
+  height: 26px;
+}
+.sele-content {
+  padding: 10px 2px;
+}
+.sele-ul {
+  max-height: 96px!important;
+}
+.add-sch {
+  width: 360px;
+  margin-left: -180px;
+  margin-top: -190px;
+}
+.change-manage .popupbox {
+  height: 115px!important;
+}
+.sch-checkbox {
+  margin: 0 auto;
+  width: 190px;
+  height: 190px;
+  border: 1px solid #bababa;
+  overflow: auto;
+  margin-top: 30px;
+  padding: 20px 30px;
+}
+.sch-checkbox:after {
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+.sch-checkbox p {
+  line-height: 12px;
+}
+.sch-checkbox input {
+  display: inline-block;
+  vertical-align: middle;
+}
+.mr60 {
+  margin-right: 60px;
+}
+
+/*# sourceMappingURL=maps/area-detailmanage.css.map */

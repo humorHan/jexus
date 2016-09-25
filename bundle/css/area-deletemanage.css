@@ -1,0 +1,74 @@
+.area-box {
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.orglogo {
+  width: 20px;
+  height: 25px;
+  display: inline-block;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  background-position: -380px -157px;
+}
+.content {
+  width: 100%;
+}
+.contentnews {
+  width: 906px;
+  margin-top: 40px;
+  height: 100%;
+  border: 1px dotted #d5d9d1;
+  position: relative;
+  padding-right: 65px;
+  padding-bottom: 30px;
+}
+.title {
+  width: 841px;
+  height: 50px;
+  margin: 45px auto;
+  color: white;
+  margin-bottom: 42px;
+  background: url('../../bundle/img/butterfly.png') no-repeat center center;
+  line-height: 40px;
+}
+.rimg {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  z-index: 3;
+}
+.contentbox {
+  width: 738px;
+  color: #333333;
+}
+.headbg {
+  height: 40px;
+  line-height: 40px;
+  background: #eae8e8;
+}
+.schlogo,
+.deletesch {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  vertical-align: middle;
+}
+.schlogo {
+  background-position: -304px -166px;
+}
+.deletesch {
+  background-position: -581px -88px;
+  cursor: pointer;
+}
+.teacherbox .schname {
+  display: block;
+  float: left;
+  width: 147.5px;
+  margin-bottom: 10px;
+}
+.mr60 {
+  margin-right: 60px;
+}
+
+/*# sourceMappingURL=maps/area-deletemanage.css.map */

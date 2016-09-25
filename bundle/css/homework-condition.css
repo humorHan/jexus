@@ -1,0 +1,118 @@
+.ml35 {
+  margin-left: 35px;
+}
+.color {
+  color: #797979;
+}
+.line24 {
+  line-height: 24px;
+}
+.homework-title {
+  height: 50px;
+  line-height: 50px;
+  background: #eae8e8;
+}
+.homework-title .title-bg {
+  display: inline-block;
+  height: 19px;
+  width: 19px;
+  background: url('../../bundle/img/icon.png') -527px -166px no-repeat;
+}
+.subject-wrap {
+  width: 597px;
+  padding: 40px 30px 30px 20px;
+  border-right: 1px solid #d5d9d0;
+}
+.subject-wrap .num {
+  margin-right: 3px;
+  text-align: right;
+  min-width: 32px;
+}
+.subject-wrap .pre-next-btn {
+  text-align: right;
+  font-size: 0;
+}
+.subject-wrap .pre-next-btn .pre-btn {
+  width: 81px;
+  height: 29px;
+  line-height: 29px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: 1px solid #bababa;
+  border-right: none;
+  text-align: center;
+  cursor: pointer;
+}
+.subject-wrap .pre-next-btn .pre-btn .pre-btn-bg {
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background: url('../../bundle/img/icon.png') -567px -168px no-repeat;
+}
+.subject-wrap .pre-next-btn .split-line {
+  width: 1px;
+  height: 31px;
+  background-color: #d5d9d0;
+}
+.subject-wrap .pre-next-btn .next-btn {
+  width: 81px;
+  height: 29px;
+  line-height: 29px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid #bababa;
+  border-left: none;
+  text-align: center;
+  cursor: pointer;
+}
+.subject-wrap .pre-next-btn .next-btn .next-btn-bg {
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  background: url('../../bundle/img/icon.png') -593px -168px no-repeat;
+}
+.subject-statistics {
+  margin-left: 648px;
+  padding: 40px 0 40px 20px;
+}
+.big-subject-wrap .small-subject-wrap {
+  margin: 10px 0;
+  font-size: 0;
+  padding-left: 5px;
+}
+.big-subject-wrap .small-subject-wrap .small-subject {
+  position: relative;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 34px;
+  height: 33px;
+  line-height: 33px;
+  color: red;
+  border: 1px solid #bababa;
+  border-radius: 2px;
+  text-align: center;
+}
+.big-subject-wrap .small-subject-wrap .small-subject .right-wrong-btn {
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  background-image: url('../../bundle/img/icon.png');
+  background-repeat: no-repeat;
+}
+.big-subject-wrap .small-subject-wrap .small-subject .right {
+  background-position: -620px -167px;
+}
+.big-subject-wrap .small-subject-wrap .small-subject .right-wrong {
+  background-position: -693px -168px;
+}
+.big-subject-wrap .small-subject-wrap .small-subject .wrong {
+  background-position: -657px -168px;
+}
+
+/*# sourceMappingURL=maps/homework-condition.css.map */

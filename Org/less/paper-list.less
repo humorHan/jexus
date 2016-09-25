@@ -1,0 +1,39 @@
+@import (reference) 'common/color.less';
+
+.grade-subject{
+  height: 52px;
+  border: 1px solid @head-line;
+  border-radius: 4px;
+  padding: 23px 50px;
+  .subject{
+    margin-top: 17px;
+  }
+  ul{
+    width: 900px;
+    li{
+      cursor: pointer;
+      display: inline;
+      margin-left: 40px;
+      &:hover{
+        color: @red;
+      }
+      &.active{
+        color: @red;
+      }
+    }
+  }
+}
+.list-wrap{
+  height: 50px;
+  line-height: 50px;
+  background: @list-bg;
+  .search-total{
+    margin-right: 30px;
+  }
+}
+.w110{
+  width: 110px;
+}
+.w68{
+  width: 68px;
+}

@@ -1,0 +1,101 @@
+.aptitude-box {
+  margin: 0 auto;
+  margin-top: 168px;
+  overflow: hidden;
+}
+.aptitude-content {
+  width: 852px;
+  margin: 0 auto;
+  color: #797979;
+}
+.nav-name {
+  width: 118px;
+  text-align: left;
+  padding-top: 15px;
+  color: #333333;
+}
+.mr0 {
+  margin-right: 0!important;
+}
+.choose-paper li {
+  width: 185px;
+  height: 135px;
+  border: 1px solid #bababa;
+  float: left;
+  margin-right: 81px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.choose-paper .aptitude-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.choose-paper li:hover {
+  border: 1px solid #cb441e !important;
+  color: #cb441e;
+}
+.choose-on {
+  border: 1px solid #cb441e !important;
+  color: #cb441e;
+}
+.introduction-text {
+  width: 663px;
+  height: 90px;
+  border: 1px solid #bababa;
+  border-radius: 2px;
+  padding: 0 30px;
+}
+.introduction-text p {
+  line-height: 30px;
+  word-wrap: break-word;
+  margin-top: 15px;
+}
+.difficult-level {
+  padding-top: 10px;
+  width: 723px;
+}
+.difficult-level .level-name,
+.level-on {
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  background: white;
+  margin-right: 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #333333;
+  text-align: center;
+  cursor: pointer;
+}
+.difficult-level span:hover,
+.level-on {
+  background: #cb441e;
+  color: white;
+}
+.difficult-level span:last-child {
+  margin-right: 0;
+}
+.test-btn,
+.test-btn-on {
+  width: 160px;
+  height: 50px;
+  background: #bababa;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 0 auto;
+  line-height: 50px;
+  text-align: center;
+}
+.test-btn:hover,
+.test-btn-on {
+  background: #cb441e;
+  color: white;
+}
+.mt80 {
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=maps/aptitude-test-list.css.map */

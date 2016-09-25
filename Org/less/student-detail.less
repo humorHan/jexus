@@ -1,0 +1,49 @@
+@import (reference) 'common/color.less';
+
+.w75{
+  width: 75px;
+}
+.detail{
+  position: relative;
+  width: 700px;
+  min-height: 800px;
+  border: 1px dashed @dashed;
+  margin: 20px auto;
+  .triangle-bg{
+    width: 59px;
+    height: 54px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: url('../../bundle/img/triangle.png') center center no-repeat;
+  }
+  .detail-content{
+    color: @exit;
+    margin: 55px 40px;
+    .item{
+      margin-bottom: 40px;
+      .status-active{
+        color: @green;
+      }
+      .status{
+        color: @red;
+      }
+    }
+  }
+  .user-info-detail{
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    color: @exit;
+    width: 162px;
+    height: 110px;
+    .mt12{
+      margin-top: 12px;
+    }
+    .user-detail-bg{
+      height: 74px;
+      width: 74px;
+      background: url('../../bundle/img/detail-boy.png') center center no-repeat;
+    }
+  }
+}

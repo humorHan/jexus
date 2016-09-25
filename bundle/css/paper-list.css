@@ -1,0 +1,39 @@
+.grade-subject {
+  height: 52px;
+  border: 1px solid #bababa;
+  border-radius: 4px;
+  padding: 23px 50px;
+}
+.grade-subject .subject {
+  margin-top: 17px;
+}
+.grade-subject ul {
+  width: 900px;
+}
+.grade-subject ul li {
+  cursor: pointer;
+  display: inline;
+  margin-left: 40px;
+}
+.grade-subject ul li:hover {
+  color: #cb441e;
+}
+.grade-subject ul li.active {
+  color: #cb441e;
+}
+.list-wrap {
+  height: 50px;
+  line-height: 50px;
+  background: #eae8e8;
+}
+.list-wrap .search-total {
+  margin-right: 30px;
+}
+.w110 {
+  width: 110px;
+}
+.w68 {
+  width: 68px;
+}
+
+/*# sourceMappingURL=maps/paper-list.css.map */

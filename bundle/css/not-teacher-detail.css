@@ -1,0 +1,92 @@
+.detail {
+  position: relative;
+  width: 700px;
+  height: 635px;
+  border: 1px dashed #d1d1d1;
+  margin: 20px auto;
+}
+.detail .triangle-bg {
+  width: 59px;
+  height: 54px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: url('../../bundle/img/triangle.png') center center no-repeat;
+}
+.detail .detail-content {
+  color: #797979;
+  margin-top: 75px;
+  margin-left: 85px;
+}
+.detail .detail-content .item {
+  margin-bottom: 40px;
+}
+.detail .user-info-detail {
+  position: absolute;
+  right: 15px;
+  top: 75px;
+  color: #797979;
+  width: 162px;
+  height: 110px;
+}
+.detail .user-info-detail .mt12 {
+  margin-top: 12px;
+}
+.detail .user-info-detail .user-detail-bg {
+  height: 74px;
+  width: 74px;
+  background: url('../../bundle/img/detail-boy.png') center center no-repeat;
+}
+.detail .user-info-detail .open {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  width: 58px;
+  background: #72ac44;
+  color: #ffffff;
+  cursor: pointer;
+}
+.detail .user-info-detail .close {
+  display: inline-block;
+  height: 22px;
+  width: 58px;
+  line-height: 22px;
+  text-align: center;
+  background: #cb441e;
+  color: #ffffff;
+  cursor: pointer;
+}
+.set-department {
+  height: 350px;
+  margin-top: -175px;
+}
+.set-department .popupbox {
+  height: 270px;
+}
+.set-department .popupbox .other-department {
+  width: 246px;
+  height: 155px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  border: 1px solid #bababa;
+  background-color: #f5f6f6;
+}
+.set-department .popupbox .other-department .department-items {
+  margin: 10px 50px;
+  color: #797979;
+}
+.set-department .popupbox .other-department .department-items .department-school {
+  color: #333333;
+  margin-left: -22px;
+}
+.set-department .popupbox .other-department .department-items li {
+  margin: 5px 0;
+}
+.set-department .mlr55 {
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+/*# sourceMappingURL=maps/not-teacher-detail.css.map */

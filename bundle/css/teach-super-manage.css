@@ -1,0 +1,122 @@
+.teach-plan-box {
+  margin: 0 auto;
+}
+.headbg-top {
+  height: 40px;
+  padding-top: 10px;
+  background: #eae8e8;
+}
+.book-icon,
+.teachplan-icon,
+.test-icon,
+.teachplan-active,
+.test-active,
+.cap-icon,
+.area-icon {
+  background: url("../../bundle/img/icon.png") no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+}
+.book-icon {
+  width: 30px;
+  height: 20px;
+  background-position: -488px -130px;
+}
+.teachplan-icon,
+.test-icon,
+.teachplan-active,
+.test-active {
+  width: 25px;
+  height: 20px;
+}
+.teachplan-icon {
+  background-position: -550px -38px;
+}
+.teachplan-active {
+  background-position: -550px -61px;
+}
+.test-icon {
+  background-position: -415px --37px;
+}
+.test-active {
+  background-position: -415px -61px;
+}
+.serchtext {
+  height: 30px;
+  width: 0;
+  border: 0;
+}
+.on {
+  width: 0;
+  border: 1px solid #d5d9d0;
+  border-right: 0;
+}
+.serch {
+  width: 43px;
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+}
+.serchimg {
+  width: 25px;
+  height: 30px;
+  display: inline-block;
+  margin-left: 9px;
+  background: url('../../bundle/img/icon.png') no-repeat;
+  background-position: -335px -30px;
+}
+.cap-icon {
+  width: 20px;
+  height: 20px;
+  background-position: -148px -168px;
+}
+.area-icon {
+  width: 20px;
+  height: 20px;
+  background-position: -381px -165px;
+}
+.select-name {
+  width: 95px;
+  height: 30px;
+  line-height: 30px;
+}
+.teach-plan-box .select {
+  height: 30px!important;
+  cursor: pointer;
+}
+.timer-change {
+  background: white;
+  border: 1px solid #a9bac3;
+  border-radius: 4px;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+}
+.timer-change a {
+  padding: 0 10px;
+  display: inline-block;
+}
+.timer-change a:hover {
+  background: #cb441e;
+  color: white;
+  height: 30px;
+  position: relative;
+  top: -2px;
+  border-radius: 3px;
+}
+.time-on {
+  background: #cb441e;
+  color: white;
+  height: 32px;
+  position: relative;
+  top: -2px;
+  border-radius: 3px;
+}
+.tech-num {
+  right: 0;
+  position: relative;
+  vertical-align: middle;
+  top: 5px;
+}
+
+/*# sourceMappingURL=maps/teach-super-manage.css.map */

@@ -1,0 +1,56 @@
+.minoutre .mtb {
+  margin-top: 110px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.minoutre .content {
+  width: 712px;
+  margin-top: 40px;
+  height: 190px;
+  position: relative;
+  border: 1px dotted #d5d9d1;
+}
+.minoutre .content .teatarea {
+  resize: none;
+  width: 96%;
+  height: 90%;
+  padding: 2%;
+  padding-bottom: 25px;
+  overflow-y: auto;
+}
+.minoutre .content .limitLetter {
+  display: inline-block;
+  position: absolute;
+  right: 23px;
+  bottom: -15px;
+  color: #797979;
+}
+.minoutre .content .limitLetter .red {
+  color: red;
+}
+.minoutre .content .handle {
+  margin-top: 85px;
+}
+.sugOk {
+  margin-top: 350px;
+  width: 100%;
+  height: 510px;
+  display: none;
+}
+.sugOk .handle {
+  height: 100%;
+}
+.sugOk .handle .goodimg {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url(../../bundle/img/icon.png) -590px -240px no-repeat;
+}
+.sugOk .handle .letter {
+  font-size: 24px;
+  color: #cb441e;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=maps/mysuggess.css.map */

@@ -1,0 +1,84 @@
+@import (reference) 'common/color.less';
+
+div.mb35{margin-bottom: 35px;}
+div.hello{
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+.assembly-content{
+  margin: 0 auto;
+  width: 915px;
+}
+.afternoon{
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  background: url("../../bundle/img/icon.png") -612px -130px no-repeat;
+}
+.paper{
+  margin-top: 35px;
+  .item{
+    height: 28px;
+    margin-bottom: 33px;
+    .paper-name{
+      width: 153px;
+    }
+    li{
+      display: inline-block;
+      height: 26px;
+      line-height: 26px;
+      border-radius: 2px;
+      cursor: pointer;
+      padding: 0 15px;
+      margin-right: 12px;
+      &.active{
+        color: @white;
+        background-color: @red;
+      }
+    }
+  }
+  .point{
+    height: auto;
+    ul{
+      width: 848px;
+      li{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .grade{
+    height: auto;
+    margin-bottom: 13px;
+    ul{
+      width: 848px;
+      li{
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.handle{
+  margin-bottom: 30px;
+  .next{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    background-color: @red;
+    cursor: pointer;
+    color: @white;
+    border-radius: 2px;
+  }
+  .clear{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    text-align: center;
+    color: @white;
+    cursor: pointer;
+    background-color: @head-line;
+    border-radius: 2px;
+  }
+}

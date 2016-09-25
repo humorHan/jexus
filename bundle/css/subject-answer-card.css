@@ -1,0 +1,63 @@
+.mt65 {
+  margin-top: 65px;
+}
+.card-bg {
+  height: 19px;
+  width: 19px;
+  background: url('../../bundle/img/icon.png') -527px -166px no-repeat;
+}
+.subject-wrap {
+  width: 724px;
+  border-right: 1px solid #d5d9d0;
+}
+.subject-wrap .options li {
+  display: inline-block;
+  margin-right: 25px;
+  width: 98px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #cb441e;
+  text-align: center;
+}
+.subject-wrap .options li.active {
+  background-color: #f4ede9;
+}
+.subject-wrap .options li.submit-option {
+  color: #ffffff;
+  background-color: #cb441e;
+}
+.answer-card {
+  margin-left: 725px;
+  padding-left: 45px;
+}
+.answer-card li {
+  display: inline-block;
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+  line-height: 35px;
+  text-align: center;
+  color: #cb441e;
+  background-color: #ffffff;
+  border: 1px solid #bababa;
+  border-radius: 2px;
+  margin-right: 30px;
+  margin-top: 45px;
+}
+.answer-card li.active {
+  color: #ffffff;
+  background-color: #cb441e;
+  border: 1px solid #cb441e;
+}
+.answer-card .time {
+  width: 200px;
+  margin: 0 auto;
+}
+.handle-btn {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=maps/subject-answer-card.css.map */

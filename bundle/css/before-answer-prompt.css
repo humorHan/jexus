@@ -1,0 +1,26 @@
+.prompt-box {
+  margin: 0 auto;
+  overflow: hidden;
+  color: #333333;
+  padding-top: 250px;
+}
+.write-icon {
+  margin: 70px auto;
+  display: block;
+}
+.test-btn {
+  width: 160px;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+  background: #cb441e;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+.test-btn:hover {
+  background: #b83616;
+}
+
+/*# sourceMappingURL=maps/before-answer-prompt.css.map */

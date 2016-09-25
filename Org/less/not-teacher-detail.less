@@ -1,0 +1,92 @@
+@import (reference) 'common/color.less';
+
+.detail{
+  position: relative;
+  width: 700px;
+  height: 635px;
+  border: 1px dashed @dashed;
+  margin: 20px auto;
+  .triangle-bg{
+    width: 59px;
+    height: 54px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: url('../../bundle/img/triangle.png') center center no-repeat;
+  }
+  .detail-content{
+    color: @exit;
+    margin-top: 75px;
+    margin-left: 85px;
+    .item{
+      margin-bottom: 40px;
+    }
+  }
+  .user-info-detail{
+    position: absolute;
+    right: 15px;
+    top: 75px;
+    color: @exit;
+    width: 162px;
+    height: 110px;
+    .mt12{
+      margin-top: 12px;
+    }
+    .user-detail-bg{
+      height: 74px;
+      width: 74px;
+      background: url('../../bundle/img/detail-boy.png') center center no-repeat;
+    }
+    .open{
+      display: inline-block;
+      height: 22px;
+      line-height: 22px;
+      text-align: center;
+      width: 58px;
+      background: @green;
+      color: @white;
+      cursor: pointer;
+    }
+    .close{
+      display: inline-block;
+      height: 22px;
+      width: 58px;
+      line-height: 22px;
+      text-align: center;
+      background: @red;
+      color: @white;
+      cursor: pointer;
+    }
+  }
+}
+.set-department{
+  height: 350px;
+  margin-top: -175px;
+  .popupbox{
+    height: 270px;
+    .other-department{
+      width: 246px;
+      height: 155px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      overflow-y: auto;
+      border: 1px solid @head-line;
+      background-color: @batch-bg;
+      .department-items{
+        margin: 10px 50px;
+        color: @exit;
+        .department-school{
+          color: @black;
+          margin-left: -22px;
+        }
+        li{
+          margin: 5px 0;
+        }
+      }
+    }
+  }
+  .mlr55{
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+}

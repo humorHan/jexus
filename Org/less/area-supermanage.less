@@ -1,0 +1,52 @@
+@import (reference) 'common/color.less';
+.area-box{width:1130px;margin:0 auto;margin-top:50px;overflow:hidden}
+.orglogo{width:20px;height:25px;display:inline-block;background:url("../../bundle/img/icon.png") no-repeat;background-position:-380px -157px;}
+.on{width:0;border:1px solid #d5d9d0;border-right:0;}
+.head{color:#767575;}
+//弹出框开始
+.popup{
+  width:400px;
+  height:414px;
+  margin-left:-200px;
+  margin-top:-207px;
+  position:absolute;
+  z-index:104;
+  left:50%;
+  top:50%;
+  .popupbox{
+    width:auto;
+    overflow:hidden;
+    margin:0 auto;
+    height:321px;
+    padding-top:30px;
+    padding-bottom:20px;
+  }
+}
+.mt33{margin-top:33px;}
+.input{width:223px;display:inline-block;vertical-align:middle;margin-left:10px;}
+.sele-manage{
+  width:230px;
+  margin-left:10px;
+  height:26px;
+  border-radius:2px;
+  border:1px solid #c1c1c1;
+  line-height:23px;
+}
+.content{width:330px;margin:0 auto;}
+.schlist{width:232px;border:1px solid #bababa;text-align:left;}
+.schlist .schleft input{margin-right:10px;vertical-align:middle;}
+.schlist  tr th,.schlist  tr td{border:1px solid #bababa;padding-left:9px}
+.schlist  tr th:first-child,.schlist  tr td:first-child{height:35px;line-height:35px;width:50%;}
+.schlist  .schleft,.schlist .schright{width:94%;height:140px;overflow:auto;padding-top:9px;}
+.schlist .schright li{height:35px;line-height:35px;}
+.schlist .dustbin{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  margin-top:8px;
+  vertical-align:middle;
+  background:url("../../bundle/img/icon.png") no-repeat;
+  background-position:-504px -92px;
+}
+//错误提示框
+.alert-news{height:24px;line-height:24px;border-radius:4px;display:inline-block;color:@red;border:1px solid @red;font-size:12px;padding: 0 15px;}

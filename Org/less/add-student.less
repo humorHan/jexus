@@ -1,0 +1,140 @@
+@import (reference) 'common/color.less';
+
+.w68{
+  width: 68px;
+}
+.pb20{
+  padding-bottom: 20px;
+}
+.ml46{
+  margin-left:46px;
+}
+.w221{
+  width: 221px;
+}
+.mlr40{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.btns{
+  height: 22px;
+  line-height: 22px;
+  .add-number{
+    cursor: pointer;
+    .add-number-bg{
+      margin-left: 5px;
+      display: inline-block;
+      height: 13px;
+      width: 13px;
+      background: url('../../bundle/img/icon.png') -639px -38px no-repeat;
+    }
+    &:hover{
+      color: @red;
+      .add-number-bg{
+        background-position: -639px -62px;
+      }
+    }
+  }
+}
+.list-wrap{
+  height: 50px;
+  line-height: 50px;
+  background: @list-bg;
+  .search-total{
+    margin-right: 30px;
+  }
+}
+.add-student{
+  max-height: 480px;
+  margin-top: -240px;
+  height: auto;
+  .popupbox{
+    height: auto;
+  }
+}
+.batches{
+  height: 62px;
+  overflow-y: auto;
+  border: 1px solid @batch-border;
+  background-color: @batch-bg;
+  .batch{
+    height: 31px;
+    line-height: 31px;
+    margin: 0 12px;
+  }
+}
+.contact-me{
+  height: 24px;
+  padding: 2px 0;
+}
+
+.account-detail{
+  min-height: 240px;
+  margin-top: -120px;
+  width: 420px;
+  .pop-content{
+    max-height: 100px;
+    overflow-y: auto;
+  }
+  margin-left: -210px;
+  .popupbox{
+    height: auto;
+  }
+}
+.add-success{
+  height: 340px;
+  margin-top: -170px;
+  .pop-content{
+    margin: 60px 35px 35px;
+    .success-bg{
+      margin: 0 auto;
+      height: 75px;
+      width: 75px;
+      background: url('../../bundle/img/icon.png') -498px -260px no-repeat;
+    }
+    .align-left{
+      text-align: left;
+    }
+  }
+  .handle{
+    margin-bottom: 40px;
+  }
+}
+.allot-school-management{
+  height: 360px;
+  margin-top: -180px;
+  .popupbox{
+    height: auto;
+  }
+  .pop-content{
+    margin: 0 70px 30px;
+    .school-management{
+      border: 1px solid @head-line;
+      background-color: @batch-bg;
+      padding: 15px 30px;
+      width: 170px;
+      height: 170px;
+      overflow-y: auto;
+      li{
+        height: 22px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+/*table -- start*/
+.account-detail-table{
+  width: 100%;
+  text-align: left;
+  th{
+    font-weight: normal;
+    text-align: left;
+  }
+  tr{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid @head-line;
+  }
+}
+/*table -- end*/

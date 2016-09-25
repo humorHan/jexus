@@ -1,0 +1,49 @@
+.w75 {
+  width: 75px;
+}
+.detail {
+  position: relative;
+  width: 700px;
+  min-height: 800px;
+  border: 1px dashed #d1d1d1;
+  margin: 20px auto;
+}
+.detail .triangle-bg {
+  width: 59px;
+  height: 54px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  background: url('../../bundle/img/triangle.png') center center no-repeat;
+}
+.detail .detail-content {
+  color: #797979;
+  margin: 55px 40px;
+}
+.detail .detail-content .item {
+  margin-bottom: 40px;
+}
+.detail .detail-content .item .status-active {
+  color: #72ac44;
+}
+.detail .detail-content .item .status {
+  color: #cb441e;
+}
+.detail .user-info-detail {
+  position: absolute;
+  right: 15px;
+  top: 60px;
+  color: #797979;
+  width: 162px;
+  height: 110px;
+}
+.detail .user-info-detail .mt12 {
+  margin-top: 12px;
+}
+.detail .user-info-detail .user-detail-bg {
+  height: 74px;
+  width: 74px;
+  background: url('../../bundle/img/detail-boy.png') center center no-repeat;
+}
+
+/*# sourceMappingURL=maps/student-detail.css.map */

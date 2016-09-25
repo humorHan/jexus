@@ -1,0 +1,45 @@
+.teach-plan-box {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.book-icon {
+  background: url("../../bundle/img/icon.png") no-repeat;
+  vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background-position: -488px -130px;
+}
+.teachplan-icon,
+.test-icon,
+.teachplan-active,
+.test-active {
+  width: 20px;
+  height: 24px;
+  display: inline-block;
+  background: url("../../bundle/img/icon.png") no-repeat;
+}
+.teachplan-icon {
+  background-position: -553px -29px;
+}
+.teachplan-active {
+  background-position: -550px -53px;
+}
+.test-icon {
+  background-position: -412px -29px;
+}
+.test-active {
+  background-position: -412px -53px;
+}
+.title-nav {
+  padding: 0 3px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.title-nav-on {
+  border-bottom: 3px solid #cb441e;
+  color: #cb441e;
+}
+
+/*# sourceMappingURL=maps/paper.css.map */

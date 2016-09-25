@@ -1,0 +1,87 @@
+@import (reference) 'common/color.less';
+.evalution-box{margin:0 auto;margin-top:50px;}
+.select{width:94px;height:24px;color:#797979}
+.select option{color:#797979}
+.green{color:#9cc382}
+/*头部导航开始*/
+.all-stu,.mystu-icon,.all-stu-on,.mystu-icon-on{
+  width:20px;
+  height:25px;
+  display:inline-block;
+  background: url("../../bundle/img/icon.png") no-repeat;
+}
+.title-nav{padding:0 3px;display:inline-block;text-align:center;line-height:30px;}
+.title-nav-on{border-bottom:3px solid @red;color:@red;}
+/*头部导航结束*/
+/*修改咨询师按钮start*/
+.edit-btn{
+  border-radius: 2px;
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  width:80px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid @tr;
+  &:hover{
+    border: 1px solid @red;
+    background: @red;
+    color: @white;
+  }
+}
+/*修改咨询师按钮end*/
+.edit-box .popup{
+  width:360px;
+  height:390px;
+  margin-left:-180px;
+  margin-top:-195px;
+}
+.edit-box  .popupbox{
+  height:310px;
+  padding-top:30px;
+}
+.edit-tea-box{width:186px;height:199px;margin:0 auto;border:1px solid #bababa;padding:20px 30px;overflow-y:auto}
+.middle{vertical-align:middle;}
+//管理弹框开始
+.manage-popup .popup{width:500px;height:376px;margin-left:-250px;margin-top:-188px;}
+.manage-popup .popupbox{width:400px;height:299px;padding:0 50px;padding-top:20px;}
+.class-detail{width:400px;height:200px;border:1px solid #bababa;overflow-y:auto;font-size:12px;}
+.dustbin{
+  width:20px;
+  height:20px;
+  display:inline-block;
+  cursor: pointer;
+  vertical-align:middle;
+  background:url("../../bundle/img/icon.png") no-repeat;
+}
+.dustbin{ background-position:-504px -92px;}
+.change-num-box{
+  display:inline-block;
+}
+.change-num-box i{
+  width:18px;
+  height:18px;
+  line-height:18px;
+  text-align:center;
+  font-size:18px;
+  cursor:pointer;
+  display:inline-block;
+  border-radius:3px;
+  border:1px solid @head-line;
+  vertical-align:middle;
+}
+.input-num{width:40px;height:20px;display:inline-block;color:#bababa}
+//管理弹框结束
+//错误信息提示
+.alert-error{height:23px;display:inline-block;border:1px solid @red;line-height:23px;padding:0 10px;border-radius:4px;color:@red;}
+//管理弹框结束
+//账号续费/账号激活弹框开始
+.account-box .popup{width:360px;height:376px;margin-left:-180px;margin-top:-187px;}
+.account-active  .popupbox{width:300px;height:297px;padding:15px 30px;}
+.account-news,.account-time{width:270px;height:104px;overflow-y:auto;padding:5px 15px;border:1px solid #bababa }
+.account-news li,.account-time li{margin-bottom:10px;}
+.account-time{height:62px;}
+.account-time label{cursor: pointer}
+.none{visibility:hidden}
+//账号续费/账号激活弹框结束

@@ -1,0 +1,67 @@
+.homework-box {
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.knowledge-icon,
+.score-icon,
+.right-icon,
+.wrong-icon,
+.half-right-icon,
+.packup-icon,
+.unfold-icon {
+  width: 15px;
+  height: 20px;
+  display: inline-block;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  vertical-align: middle;
+}
+.title-nav {
+  padding: 0 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.score-icon {
+  background-position: -474px -38px;
+}
+.knowledge-icon {
+  background-position: -530px -61px;
+}
+.on {
+  border-bottom: 3px solid #cb441e;
+  color: #cb441e;
+}
+.answer {
+  width: 100%;
+  background: #eae8e8;
+}
+.packup-icon,
+.unfold-icon {
+  width: 18px;
+  height: 12px;
+  cursor: pointer;
+}
+.packup-icon {
+  background-position: -249px -97px;
+}
+.unfold-icon {
+  background-position: -214px -97px;
+}
+.right-icon,
+.wrong-icon,
+.half-right-icon {
+  width: 25px;
+  height: 30px;
+  vertical-align: middle;
+}
+.right-icon {
+  background-position: -384px -126px;
+}
+.half-right-icon {
+  background-position: -419px -126px;
+}
+.wrong-icon {
+  background-position: -346px -126px;
+}
+
+/*# sourceMappingURL=maps/homework-detail.css.map */

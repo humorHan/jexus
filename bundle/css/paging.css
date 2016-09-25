@@ -1,0 +1,48 @@
+.pagination {
+  font-size: 12px;
+  text-align: center;
+  overflow: hidden;
+  zoom: 1;
+}
+.pagination a {
+  color: white;
+}
+.pagination .active {
+  background: #cb441e;
+  color: white;
+}
+.pagination .page-box li {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  margin-right: 7px;
+}
+.page-box li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: black;
+  border-radius: 4px;
+}
+.page-box li a:hover {
+  background: #e4b9ac;
+  color: white;
+}
+.pagination .pre-page,
+.pagination .next-page {
+  color: black;
+}
+.pagination .pre-page:hover,
+.pagination .next-page:hover {
+  color: #e4b9ac;
+}
+.mr20 {
+  margin-right: 20px;
+}
+.last-page {
+  margin-right: 0!important;
+}
+
+/*# sourceMappingURL=maps/paging.css.map */

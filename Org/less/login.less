@@ -1,0 +1,363 @@
+@import (reference) 'common/color.less';
+
+div.hidden{
+    display: none;
+}
+body{
+  color: @exit;
+}
+.w190{width: 190px;}
+.mt15{margin-top: 15px;}
+.phone-color{color: @phone;}
+.week{color: @week;}
+.ml5r20{
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.chrome{
+  height: 30px;
+  line-height: 30px;
+  background-color: @chrome;
+  .download{
+    display: inline-block;
+    margin-left: 40px;
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid @line;
+  }
+  .close{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-left: 235px;
+    cursor: pointer;
+    background: url('../../bundle/img/close-x.png') center center no-repeat;
+  }
+}
+.login-head {
+  height: 70px;
+  width: 80%;
+  margin: 0 auto;
+  .login-head-right {
+    width: 325px;
+    margin: 8px 30px 8px 0;
+    .telephone{
+      height: 37px;
+      width: 37px;
+      background: url('../../bundle/img/icon.png') -256px -298px no-repeat;
+    }
+    .login-btn {
+      position: relative;
+      top: -14px;
+      height: 30px;
+      width: 90px;
+      cursor: pointer;
+      line-height: 30px;
+      text-align: center;
+      color: @white;
+      background-color: @login-btn;
+    }
+  }
+  .logo{
+    margin-top: 13px;
+  }
+}
+.banner-wrap{
+  background-color: @banner-bg;
+  .banner{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    .banner-width{
+      width: 100%;
+    }
+    .WeChat-collect{
+      max-height: 69px;
+      border: 1px solid @head-line;
+      width: 36px;
+      position: absolute;
+      top: 450px;
+      right: 3px;
+      .collect-btn{
+        cursor: pointer;
+        height: 18px;
+        width: 21px;
+        padding: 8px;
+        background: url('../../bundle/img/heart-btn.png') center center no-repeat;
+        &:hover{
+          background: @WeChat-collect url('../../bundle/img/heart-btn.png') center center no-repeat;
+        }
+        &.active{
+          background: @WeChat-collect url('../../bundle/img/heart-btn.png') center center no-repeat;
+        }
+        &.collected{
+          background: url('../../bundle/img/heart-btn-active.png') center center no-repeat;
+        }
+        &.active.collected{
+          background: @WeChat-collect url('../../bundle/img/heart-btn-active.png') center center no-repeat;
+        }
+      }
+      .WeChat-btn{
+        cursor: pointer;
+        height: 29px;
+        width: 30px;
+        padding: 3px;
+        background: url('../../bundle/img/WeChatBtn.png') center center no-repeat;
+        &:hover{
+          background: @WeChat-collect url('../../bundle/img/WeChatBtn.png') center center no-repeat;
+        }
+        &.active{
+          background: @WeChat-collect url('../../bundle/img/WeChatBtn.png') center center no-repeat;
+        }
+      }
+      .WeChat-wrapper{
+        position: relative;
+        left: -373px;
+        top: -147px;
+        height: 134px;
+        width: 358px;
+        padding: 7px;
+        background: @white;
+        box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+        -moz-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+        -webkit-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+        .WeChat-dashed{
+          height: 102px;
+          width: 336px;
+          border: 1px dashed @head-line;
+          padding: 14px 10px 14px 10px;
+          .WeChat{
+            margin-right: 25px;
+            height: 106px;
+            width: 106px;
+            background: url('../../bundle/img/WeChat.png') center center no-repeat;
+          }
+          .describe{
+            .scan{
+              color: @black;
+              margin-bottom: 10px;
+            }
+            .line24{
+              line-height: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.copy-right{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.login-pop{
+  height: 400px;
+  width: 700px;
+  position: fixed;
+  z-index: 101;
+  left: 50%;
+  top: 50%;
+  border-radius: 4px;
+  margin-left: -350px;
+  margin-top: -200px;
+  box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+  -moz-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+  -webkit-box-shadow: 0 0 10px 0 rgba(95, 30, 31, 0.5);
+  .login-pop-left{
+    height: 100%;
+    width: 275px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: @login-pop-left url("../../bundle/img/login-pop-left.png") center center no-repeat;
+  }
+  .login-pop-right{
+    height: 100%;
+    width: 425px;
+    margin-left: 275px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background: @white url("../../bundle/img/login-pop-right.png") center top no-repeat;
+    .pt70{
+      padding-top: 70px;
+    }
+    .login-info{
+      width: 260px;
+      margin: 0 auto;
+    }
+    .login-number{
+      width: 258px;
+      height: 38px;
+      line-height: 38px;
+      border: 1px solid @head-line;
+      border-radius: 2px;
+      input{
+        outline: none;
+        border: none;
+      }
+      .login-number-bg{
+        width: 11px;
+        height: 16px;
+        margin: 11px 20px;
+        background: url('../../bundle/img/icon.png') -537px -130px no-repeat;
+      }
+    }
+    .password{
+      width: 258px;
+      height: 38px;
+      line-height: 38px;
+      border: 1px solid @head-line;
+      border-radius: 2px;
+      input{
+        outline: none;
+        border: none;
+      }
+      .password-bg{
+        width: 14px;
+        height: 16px;
+        margin: 11px 20px;
+        background: url('../../bundle/img/icon.png') -575px -130px no-repeat;
+      }
+    }
+    .identify-code{
+      input{
+        height: 38px;
+        line-height: 38px;
+        width: 128px;
+        border: 1px solid @head-line;
+      }
+      .identify-img{
+        margin-left: 5px;
+        height: 40px;
+        width: 100px;
+      }
+    }
+    .login-pop-tip{
+      height:24px;
+      margin: 4px 0;
+      .error-tip{
+        padding: 0 20px;
+      }
+    }
+    .pop-login-btn{
+      width: 260px;
+      height: 40px;
+      line-height: 40px;
+      color: @white;
+      background-color: @red;
+      border-radius: 4px;
+      cursor: pointer;
+      &:hover{
+        background: @heavy-red;
+      }
+    }
+    .login-handle{
+      margin-top: 20px;
+    }
+  }
+}
+.black3{
+  color: @black;
+}
+.find-password{
+  height: 360px;
+  margin-top: -180px;
+  .popupbox{
+    height: 280px;
+  }
+  .pop-content{
+    width: 250px;
+    margin: 0 auto;
+    text-align: right;
+    .phone-tip{
+      margin-left: 60px;
+    }
+    .code-tip{
+      margin-left: 60px;
+    }
+    .code{
+      input{
+        width: 83px;
+      }
+      .send-code-btn{
+        display: inline-block;
+        width: 94px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: @white;
+        border-radius: 2px;
+        cursor: pointer;
+        background-color: @red;
+      }
+    }
+    .mtb10{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .w188{
+      width: 182px;
+    }
+    .w154{
+      width: 154px;
+    }
+    .align-left{
+      text-align: left;
+    }
+  }
+}
+.collection{
+  .pop-content{
+    width: 210px;
+    margin: 0 auto;
+  }
+}
+.collection-fail{
+  .pop-content{
+    margin-top: 40px;
+    text-align: center;
+  }
+  .mb5{
+    margin-bottom: 5px;
+  }
+}
+.bind-phone-fail{
+  height: 210px;
+  width: 320px;
+  margin-left: -160px;
+  margin-top: -105px;
+  .popupbox{
+    height: 130px;
+  }
+  .pop-content{
+    width: 145px;
+    margin:0 auto;
+    .error-tip{
+      margin: 5px 0 20px 0;
+      width: 118px;
+    }
+  }
+  .submit{
+    width: 120px;
+  }
+}
+.find-password-fail{
+  height: 210px;
+  width: 320px;
+  margin-left: -160px;
+  margin-top: -105px;
+  .popupbox{
+    height: 130px;
+  }
+  .pop-content{
+    width: 145px;
+    margin:0 auto;
+    .error-tip{
+      margin: 5px 0 20px 0;
+      width: 118px;
+    }
+  }
+}

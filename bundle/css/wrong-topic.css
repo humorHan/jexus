@@ -1,0 +1,108 @@
+.wrong-box {
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.teach-icon,
+.teach-icon-on,
+.knowledge-icon,
+.knowledge-icon-on,
+.homework-icon,
+.homework-icon-on,
+.wrong-icon,
+.wrong-icon-on,
+.analy-icon,
+.analy-icon-on {
+  width: 20px;
+  height: 20px;
+  background: url("../../bundle/img/icon.png") no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+}
+.teach-icon {
+  background-position: -200px -37px;
+}
+.teach-icon-on {
+  background-position: -200px -61px;
+}
+.knowledge-icon {
+  background-position: -227px -37px;
+}
+.knowledge-icon-on {
+  background-position: -227px -61px;
+}
+.homework-icon {
+  background-position: -253px -37px;
+}
+.homework-icon-on {
+  background-position: -253px -61px;
+}
+.wrong-icon {
+  background-position: -282px -37px;
+}
+.wrong-icon-on {
+  background-position: -282px -60px;
+}
+.analy-icon {
+  background-position: -311px -37px;
+}
+.analy-icon-on {
+  background-position: -311px -60px;
+}
+.title-nav {
+  padding: 0 3px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+}
+.title-nav-on {
+  border-bottom: 3px solid #cb441e;
+  color: #cb441e;
+}
+.subject-sele {
+  width: 85px;
+  height: 30px;
+  margin-top: 10px;
+}
+.wrong-content-box {
+  width: 817px;
+  padding: 40px 40px;
+  overflow: hidden;
+}
+.wrong-topic {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 25px;
+  word-break: break-all;
+}
+.green {
+  color: #72ac44;
+}
+.change-topic {
+  width: 160px;
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+  border: 1px solid #bababa;
+  border-radius: 4px;
+  margin-top: 48px;
+  float: right;
+}
+.pre-topic,
+.next-topic {
+  width: 80px;
+  text-align: center;
+  display: block:cursor:pointer;
+  height: 100%;
+}
+.pre-topic {
+  width: 79px;
+  border-right: 1px solid #bababa;
+}
+.pre-topic:hover,
+.next-topic:hover {
+  background: #cb441e;
+  color: white;
+}
+
+/*# sourceMappingURL=maps/wrong-topic.css.map */
